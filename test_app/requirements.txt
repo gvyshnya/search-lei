@@ -1,0 +1,9 @@
+requests
+json
+datetime
+pandas
+collections
+json
+uuid
+xlrd==2.0.1
+openpyxl

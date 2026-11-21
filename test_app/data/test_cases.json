@@ -1,0 +1,170 @@
+[
+    {
+        "id": "A10001",
+        "arguments": {
+            "legal_entity_name": "xyz",
+	        "country_code": "ES"
+        },
+        "expected": {
+            "LEI": [
+                "984500Y9DBB69B660C20",
+                "959800ZLKWWZVLUU0L48",
+                "959800JEJ5U00J746D69",	
+                "959800ZKBADYKVDQQF30",
+                "9598007XPA6ZWW7VJ645",
+                "9598004EJH934T9ULT57",
+                "9598008T2ZSRBULYZT49",
+                "5299003K2LAEZMCI7V90"
+            ]
+        }
+    },
+    {
+        "id": "A10002",
+        "arguments": {
+            "legal_entity_name": "xyz",
+	        "country_code": "II"
+        },
+        "expected": { 
+            "error": "Invalid country code: II"
+        }
+    },
+    {
+        "id": "A10003",
+        "arguments": {
+            "legal_entity_name": "xyz",
+	        "country_code": "PL"
+        },
+        "expected": {
+            "LEI": [
+                "259400EUNFX4E2BEHU15",
+                "259400XGEK83XMXBDN79",
+                "2138006TJEK91D23M808",
+                "259400PVXQVC50NJOI65"
+            ]
+        }
+    },
+    {
+        "id": "A10004",
+        "arguments": {
+            "legal_entity_name": "telecomun",
+	        "country_code": "PL"
+        },
+         "expected": {
+            "LEI": [
+                "259400LJ7CFX0WKHWC35",
+                "984500C1B904D59D2D38",
+                "25940065REE1G54P7184"
+            ]
+        }
+
+    },
+    {
+        "id": "A10005",
+        "arguments": {
+            "legal_entity_name": "farmac",
+	        "country_code": "FR"
+        },
+         "expected": {
+            "LEI": [
+                "969500YFT2LI6DEEYI66"
+            ]
+        }
+
+    },
+    {
+        "id": "A10006",
+        "arguments": {
+            "legal_entity_name": "food",
+	        "country_code": "PT"
+        },
+         "expected": {
+            "LEI": [
+                "25490074JGTACHGY0V12",
+                "959800P8GT8MD9NHCP13",
+                "213800764CDP88ERXX30",
+                "894500YBMPW9YWMDF515",
+                "2138007OEFYGPGXUH451",
+                "959800SH8EWETUU6SU96"
+            ]
+        }
+
+    },
+    {
+        "id": "A10007",
+        "arguments": {
+            "legal_entity_name": "&",
+	        "country_code": "UA"
+        },
+         "expected": {
+            "LEI": [
+                "21380086FLIT3TS34E60"
+            ]
+        }
+
+    },
+    {
+        "id": "A10008",
+        "arguments": {
+            "legal_entity_name": "computers",
+	        "country_code": "ES"
+        },
+         "expected": {
+            "LEI": [
+                "95980092T3CH1VK1VB09",
+                "959800K9TTX6XSDUWH81",
+                "959800UYN6SGRUHN0V82"
+            ]
+        }
+
+    },
+    {
+        "id": "A10009",
+        "arguments": {
+            "legal_entity_name": "computers",
+	        "country_code": "CA"
+        },
+         "expected": {
+            "LEI": [
+                "549300W73KU6GYY8Q017",
+                "549300N1P7BB1EHIRL08",
+                "549300LZID267LGFXM57",
+                "549300GSGZTZD1FKV249",
+                "549300FOILUVZ0QCR072"
+            ]
+        }
+
+    },
+    {
+        "id": "A10010",
+        "arguments": {
+            "legal_entity_name": "water",
+	        "country_code": "MX"
+        },
+         "expected": {
+            "LEI": [
+                "254900Q30MABXLMDVW04"
+              
+            ]
+        }
+
+    },
+    {
+        "id": "A10011",
+        "arguments": {
+            "legal_entity_name": "wind ",
+	        "country_code": "CZ"
+        },
+         "expected": {
+            "LEI": [
+                "315700HOTK9W441M1Z55",
+                "315700V7WH6UMCOSMI07",
+                "315700GXBGM8DBYKHF01",
+                "315700ACU80YW0HVS890",
+                "984500DF11F1BF6CX784",
+                "315700SJ015RO5J6MY41"
+              
+            ]
+        }
+
+    }
+]
